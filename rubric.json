@@ -1,0 +1,51 @@
+{
+    "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "100\nRAM\n15000\n200\nTOM\n9000\n300\nBOB\n11000\n400\nSAM\n5000",
+                    "output": "100 RAM 15000.000000300 BOB 11000.000000",
+                    "type": "STDIN"
+                },
+                "score": "5",
+                "visible": "all"
+            },
+            {
+                "checkName": "2",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "100 RAM 15000 200 TOM 9000 300 BOB 11000 400 SAM 5000",
+                    "output": "100 RAM 15000.000000300 BOB 11000.000000",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            }
+        ],
+        "system": [
+            {
+                "checkName": "Compilation",
+                "checkType": "compile",
+                "group": "system",
+                "penalty": "",
+                "rule": {
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "0",
+                "visible": "eval"
+            }
+        ]
+    },
+    "weightage": {
+        "blackboxtests": "undefined",
+        "system": "100"
+    },
+    "lastSaved": "20150101 120424"
+}

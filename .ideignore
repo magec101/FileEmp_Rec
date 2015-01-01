@@ -1,0 +1,9 @@
+target
+.stack
+.git
+.gitignore
+Hint.md
+pom.xml
+pom_evaluation.xml
+checkstyle.xml
+verifications.xml
